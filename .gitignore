@@ -1,0 +1,9 @@
+venv/
+.env
+*.ini
+*.xml
+*.pyc
+*.iml
+*.http
+alembic/
+.idea/
