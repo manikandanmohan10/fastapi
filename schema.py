@@ -2,10 +2,10 @@
 from pydantic import BaseModel
 
 class User(BaseModel):
-    id: int
+    id: int | None
     email: str
-    hashed_password: str
-    is_active: bool
+    password: str
+    is_active: bool | None
 
     class Config:
         orm_mode = True
