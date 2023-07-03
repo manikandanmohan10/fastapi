@@ -5,5 +5,4 @@ venv/
 *.pyc
 *.iml
 *.http
-alembic/
 .idea/
